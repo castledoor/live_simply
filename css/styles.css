@@ -1,0 +1,162 @@
+#header-color {
+	/*background-color: #85A18A*/
+}
+
+.background {
+	background-image:url('../img/halftone.png') !important;
+	background-repeat:repeat;
+}
+
+/*body {
+		background:#678bb3; 
+		padding:0;
+		margin:0;
+	}
+*/
+.link {
+	color: #C08F06 !important;
+	text-decoration: none !important;
+	font-weight: bold
+}
+
+.date {
+	font-size: 9px;
+}
+
+
+@-webkit-keyframes plant_animate {
+	0% {-webkit-transform: translateY(0px);}
+	25% {-webkit-transform: translateY(2px);}
+	50% {-webkit-transform: translateY(0px);}
+	75% {-webkit-transform: translateY(1px);}
+	100% {-webkit-transform: translateY(0px);}
+}
+
+path:hover {
+	-webkit-animation-name: plant_animate;
+	 -webkit-animation-duration: 0.1s;
+  -webkit-animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: backwards;
+}
+
+
+
+#swaying-stems {
+	-webkit-animation-name: sway;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite ;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 0s;
+}
+
+#front-leaf {
+	-webkit-animation-name: front-leaf;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-iteration-count: infinite ;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 2s;
+	z-index: 5;
+	position: relative;
+
+}
+
+#upper-pot {
+
+}
+
+.words-container {
+	text-align: justify;
+}
+
+#plant {
+
+
+}
+
+
+#nav, #footer, .bottom {
+	background-color: #85A18A;
+	color: #FFF5D6;
+}
+
+.quotes {
+	font-size: 50px;
+}
+/*
+.bottom {
+	min-height: 150px;
+}
+*/
+
+@-webkit-keyframes sway {
+	0% { -webkit-transform: rotate3d(100, 100, 100, 0deg); /*Start }
+	50% { -webkit-transform: rotate3d(100, 100, 100, -1deg); /*Left*/ }
+	100% { -webkit-transform: rotate3d(100, 100, 100, 2deg); /*Right*/ }
+}
+
+@-webkit-keyframes front-leaf {
+	0% { -webkit-transform: rotate3d(20, 20, 20, 0deg); /*Start*/ }
+	50% { -webkit-transform: rotate3d(20, 20, 20, 0.6deg); /*Left*/ }
+	100% { -webkit-transform: rotate3d(20, 20, 20, 0deg); /*Right*/ }
+}
+
+#header-highlight {
+	background-color: #F7D502;
+  box-shadow: 0px 0px 7px;
+	height: 0.5%;
+	width: 100%;
+	margin: auto;
+	position: absolute;
+}
+
+a {
+	color: black !important;
+}
+
+html,
+      body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        height: 82px;
+      }
+      #footer {
+        background-color:  #85A18A;
+        margin-bottom: 0px;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+p {
+	font-family: "Courier New", monospace;
+	font-size: 12px;
+}
+
+.selection {
+	display:none;
+}
+
