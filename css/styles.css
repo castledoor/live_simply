@@ -19,14 +19,20 @@
 #banner {
 	background-color: #D4480D;
 	height: 0.5px;
+}
 
-
+a {
+		text-decoration: none !important;
+	font-weight: bold
 }
 
 .date {
 	font-size: 9px;
 }
 
+.foot-font {
+	font-size: 14px;
+}
 
 @-webkit-keyframes plant_animate {
 	0% {-webkit-transform: translateY(0px);}
@@ -137,7 +143,7 @@ html,
       /* Set the fixed height of the footer here */
       #push,
       #footer {
-        height: 82px;
+        height: 68px;
       }
       #footer {
         background-color:  #85A18A;
