@@ -14,7 +14,7 @@
 	}
 */
 .link {
-	color: #C08F06 !important;
+	color: #D4480D !important;
 	text-decoration: none !important;
 	font-weight: bold
 }
@@ -85,11 +85,10 @@ path:hover {
 .quotes {
 	font-size: 50px;
 }
-/*
-.bottom {
-	min-height: 150px;
+
+.nav > li > a:hover, .nav > li > a:focus {
+ background-color: transparent !important; 
 }
-*/
 
 @-webkit-keyframes sway {
 	0% { -webkit-transform: rotate3d(100, 100, 100, 0deg); /*Start }
@@ -104,7 +103,7 @@ path:hover {
 }
 
 #header-highlight {
-	background-color: #F7D502;
+	background-color: #C08F06;
   box-shadow: 0px 0px 7px;
 	height: 0.5%;
 	width: 100%;

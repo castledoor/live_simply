@@ -4,6 +4,8 @@
             cssStyle: 'custom-theme',
             onPageClick: function(pageNumber){test(pageNumber)},
             onInit: function(){pageOne()},
+            nextText: '<i class="glyphicon glyphicon-chevron-right"></i>',
+            prevText: '<i class="glyphicon glyphicon-chevron-left"></i>'
            
         });
     });

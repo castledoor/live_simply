@@ -208,13 +208,13 @@ ul.simple-pagination {
 	min-width: 14px;
 	padding: 0 7px;
 	opacity: 0.6;
-	background: #F7D502 /* Old browsers */
+	background: #C08F06 /* Old browsers */
 
 }
 
 .custom-theme a:hover {
 	text-decoration: none;
-	background: #F7D502
+	background: #C08F06
 }
 
 .custom-theme li:first-child a, .custom-theme li:first-child span {
@@ -228,7 +228,7 @@ ul.simple-pagination {
 }
 
 .custom-theme .current {
-	background: #F7D502; /* Old browsers */
+	background: #C08F06; /* Old browsers */
 	cursor: default;
 }
 
