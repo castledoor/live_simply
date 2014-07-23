@@ -193,7 +193,7 @@ ul.simple-pagination {
 \*------------------------------------*/
 
 #pagination {
-	margin-left: 43%;
+	margin-left: 46%;
 	}
 
 .custom-theme a, .custom-theme span {
@@ -211,6 +211,8 @@ ul.simple-pagination {
 	background: #C08F06 /* Old browsers */
 
 }
+
+
 
 .custom-theme a:hover {
 	text-decoration: none;
